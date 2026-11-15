@@ -1,11 +1,11 @@
 /* ときなおし — 紙の白・インクの紺・朱色（採点の赤ペン） */
 :root {
-  --paper: #f4f2ed; --card: #ffffff; --ink: #1d2329; --sub: #5f6670; --line: #ddd8ce;
-  --vermilion: #1e5bb8; --vermilion-soft: #e2ecfa; --navy: #1e5bb8; --correct: #1e8a4c;
+  --paper: #f5f3ee; --card: #ffffff; --ink: #1c2427; --sub: #5e686c; --line: #dcd7cc;
+  --vermilion: #13705f; --vermilion-soft: #ddefea; --navy: #13705f; --correct: #a86400;
 }
 @media (prefers-color-scheme: dark) {
-  :root { --paper: #111417; --card: #1b2026; --ink: #eef0f2; --sub: #a7aeb6; --line: #2c333b;
-    --vermilion: #6ea2f0; --vermilion-soft: #16263d; --navy: #6ea2f0; --correct: #4cc38a; }
+  :root { --paper: #0f1416; --card: #182024; --ink: #ecf0f1; --sub: #a3aeb2; --line: #2a3438;
+    --vermilion: #5ccdb6; --vermilion-soft: #13312b; --navy: #5ccdb6; --correct: #f2b04c; }
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
